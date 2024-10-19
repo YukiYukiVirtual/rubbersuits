@@ -1,6 +1,6 @@
 window.addEventListener("load", function()
 {
-	function readcsv(path)
+	function readcsv(filePath)
 	{
 		var csvData = new Array();
 		var data = new XMLHttpRequest();	
